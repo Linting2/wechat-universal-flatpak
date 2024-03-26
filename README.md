@@ -22,5 +22,7 @@ flatpak install com.tencent.WeChat.flatpak
 如果在安装过程中遇到如下问题
 error: The application com.tencent.WeChat/x86_64/master requires the runtime org.freedesktop.Platform/x86_64/23.08 which was not found
 可以利用下面的命令进行修复，之后再重新安装
+```shell
 sudo flatpak remote-add --if-not-exists --system flathub \
   https://flathub.org/repo/flathub.flatpakrepo
+```
